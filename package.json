@@ -1,0 +1,29 @@
+{
+  "name": "mazdoor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "start": "node server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ervaibhavkumar/mazdoor.git"
+  },
+  "author": "Er.Vaibhav Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ervaibhavkumar/mazdoor/issues"
+  },
+  "homepage": "https://github.com/ervaibhavkumar/mazdoor/index.html",
+  "dependencies": {
+    "csv": "^0.3.7",
+    "csvtojson": "^2.0.0",
+    "ejs": "^2.5.9",
+    "express": "^4.16.3",
+    "nexmo": "^2.3.2",
+    "nodemailer": "^4.6.4",
+    "twilio": "^3.17.3"
+  }
+}
